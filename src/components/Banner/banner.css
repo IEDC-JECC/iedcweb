@@ -1,0 +1,58 @@
+.neel
+{
+    color: #04324D;
+
+/* head3 */
+font-family: "Bai Jamjuree";
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 2px;
+}
+.lneel{
+    color: #0071AB;
+
+/* head3 */
+font-family: "Bai Jamjuree";
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 2px;
+}
+.manj
+{
+    color: #D19200;
+
+/* head3 */
+font-family: "Bai Jamjuree";
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 2px;
+}
+.iebann
+{
+    padding-left: 68px;
+    background-image: url("../../images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 220px;
+    /* padding-bottom: 183px; */
+    height: 400px;
+}
+.myStyle
+{
+    color: #008FD4;
+
+/* subhead */
+font-family: "Bai Jamjuree";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
