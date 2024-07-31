@@ -1,0 +1,74 @@
+.hmid
+{
+    margin-top: 69px;
+}
+.mmanj
+{
+    color: #D19200;
+
+/* head4 */
+font-family: "Bai Jamjuree";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mneel
+{
+    color: #008FD4;
+
+/* head4 */
+font-family: "Bai Jamjuree";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mdesc
+{
+    width: 563px;
+    color: #04324D;
+text-align: center;
+font-family: "Bai Jamjuree";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+}
+.hcount
+{
+    display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 158px;
+background: linear-gradient(180deg, rgba(0, 168, 233, 0.80) 0%, #00A8E9 100%);
+width: 100%;
+margin-top: 49px;
+}
+.icount
+{
+    display:block;
+}
+.icount h3{
+    color: #EFFAFF;
+text-align: center;
+font-family: "Bai Jamjuree";
+font-size: 75px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.icount p{
+    color: #EFFAFF;
+text-align: center;
+font-family: "Bai Jamjuree";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

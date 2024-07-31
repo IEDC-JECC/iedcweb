@@ -1,0 +1,44 @@
+.navhead
+{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+.vazhi
+{
+    display: inline-flex;
+align-items: center;
+gap: 56px;
+
+}
+.linkey
+{
+    color: #04324D;
+font-family: "Bai Jamjuree";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.navhead button
+{
+    display: inline-flex;
+padding: 4px 18px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #04324D;
+font-family: "Bai Jamjuree";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.64px;
+border-radius: 11px;
+border: 1px solid #00A8E9;
+box-shadow: 0px 4px 15.4px 0px rgba(0, 168, 233, 0.50);
+background-color: #EFFAFF;
+}
