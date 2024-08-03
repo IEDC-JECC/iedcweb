@@ -4,6 +4,9 @@ import Banner from '../components/Banner/Banner';
 import "./home.css";
 import IEdc from '../images/image-10.png';
 import IEdc2 from '../images/image-11.png';
+import {ArrowCircleRight} from '@phosphor-icons/react';
+import Hacker from '../images/hack.png';
+import Footer from '../components/Footer/Footer';
 
 function Home() {
   return (
@@ -44,7 +47,54 @@ function Home() {
                 <p>Ideative Events</p>
             </div>
         </div>
-    </div>
+        <div className="memb">
+        <div style={{display:"flex",gap:"10px",justifyContent:"center"}}>
+                <p className='mmanj'>Our</p>
+                <p className='mneel'>Membership</p>
+            </div>
+            <div className="joinb">
+                <h2 className='fefe'>Free Forever</h2>
+                <p>Experience a new academic year like never before!</p>
+                <div style={{display:"inline-flex",gap:"100px",justifyContent:"space-between",alignItems:"center"}}>
+                    <h2>Join</h2>
+                    <a href='https://www.google.com' style={{textDecoration:"none"}}><ArrowCircleRight size={43} /></a>
+            </div>
+                
+            </div>
+        </div>
+        <div className="incev">
+        <div style={{display:"flex",gap:"10px",justifyContent:"center"}}>
+                <p className='mmanj'>Incoming</p>
+                <p className='mneel'>Events</p>
+                </div>
+                <div style={{display: "flex",
+                            alignItems: "center",
+                            gap: "40px",paddingLeft:"32px",paddingRight:"32px"}}>
+                    <div className="evind">
+                        <img src={Hacker}></img>
+                        <div className="evind1">
+                            <h2>Karthavya</h2>
+                            <p>A hackathon conducting by students of JEC for making students empowered</p>
+                            <p> and + 20 participating</p>
+                            <p>Date and time</p>
+                            <button>Get</button>
+                        </div>
+                    </div>
+                    <div className="evind">
+                        <img src={Hacker}></img>
+                        <div className="evind1">
+                            <h2>Karthavya</h2>
+                            <p>A hackathon conducting by students of JEC for making students empowered</p>
+                            <p> and + 20 participating</p>
+                            <p>Date and time</p>
+                            <button>Get</button>
+                        </div>
+                    </div>
+                            </div>
+
+            </div>
+            <Footer></Footer>
+        </div>
   )
 }
 
