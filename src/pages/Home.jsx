@@ -7,8 +7,10 @@ import IEdc2 from '../images/image-11.png';
 import {ArrowCircleRight} from '@phosphor-icons/react';
 import Hacker from '../images/hack.png';
 import Footer from '../components/Footer/Footer';
+import Social from '../components/Social/Social';
 
 function Home() {
+
   return (
     <div>
         <NavBar/>
@@ -25,8 +27,7 @@ function Home() {
                 <p className='mmanj'>Team</p>
             </div>
             <p className='mdesc'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-            </p>
+                Launch your startup dreams with IEDC! We help you turn ideas into reality with resources, mentors, and events like workshops and hackathons. Learn essential skills, network with experts, and get your business idea off the ground. Join our IEDC family - email us or check our social media!            </p>
             <div style={{display:"flex",justifyContent:"space-between"}}>
             <img src={IEdc2} alt="iedcc"/>
                 <img src={IEdc} alt="iedcc"/>
@@ -83,15 +84,17 @@ function Home() {
                     <div className="evind">
                         <img src={Hacker}></img>
                         <div className="evind1">
-                            <h2>Karthavya</h2>
-                            <p>A hackathon conducting by students of JEC for making students empowered</p>
+                            <h2>101 Series</h2>
+                            <p>A series of workshops and techtalks for upskilling</p>
                             <p> and + 20 participating</p>
                             <p>Date and time</p>
                             <button>Get</button>
                         </div>
                     </div>
                             </div>
-
+                        <div>
+                            <Social />
+                        </div>
             </div>
             <Footer></Footer>
         </div>

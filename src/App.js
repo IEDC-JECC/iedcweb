@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Home></Home>}/>
+          <Route path='/' element={<Home></Home>}/>npm run dev
           <Route path='/about' element={<Home></Home>}/>
           <Route path='/execom' element={<Home></Home>}/>
           <Route path='/gov' element={<Home></Home>}/>
