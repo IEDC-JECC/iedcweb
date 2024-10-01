@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import Banner from '../components/Banner/Banner';
 import "./home.css";
+
 import IEdc from '../images/image-10.png';
 import IEdc2 from '../images/image-11.png';
 import {ArrowCircleRight} from '@phosphor-icons/react';

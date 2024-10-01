@@ -1,0 +1,127 @@
+.full {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .navhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .iebann {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .txtmh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .banner-line {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .neel, .lneel, .manj {
+    color: #04324D;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  .lneel { color: #0071AB; }
+  .manj { color: #D19200; }
+  
+  .myStyle {
+    color: #008FD4;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navhead {
+      padding: 0.5rem;
+    }
+  
+    .logo {
+      height: 40px;
+    }
+  
+    .iebann {
+      padding: 60px 20px;
+      min-height: 300px;
+    }
+  
+    .neel, .lneel, .manj {
+      font-size: 2rem;
+    }
+  
+    .myStyle {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .neel, .lneel, .manj {
+      font-size: 1.5rem;
+    }
+  
+    .banner-line {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .iebann {
+      padding: 40px 10px;
+      min-height: 250px;
+    }
+    .vazhi
+{
+    display: inline-flex;
+align-items: center;
+gap: 56px;
+
+}
+.linkey
+{
+    color: #04324D;
+font-family: "Bai Jamjuree";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+
+  }
