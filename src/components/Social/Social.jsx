@@ -6,7 +6,7 @@ const Social = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true);
-    },); // Open popup after 3 seconds
+    },); 
 
     return () => clearTimeout(timer);
   }, []);
