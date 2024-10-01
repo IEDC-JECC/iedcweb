@@ -32,5 +32,3 @@ function SocialPg() {
 }
 
 export default SocialPg;
-
-// socialpg.css
