@@ -2,6 +2,7 @@ import React from 'react';
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 import './socialpage.css';
 
+
 const SocialPage = () => {
   const socialLinks = [
     { name: 'Facebook', url: 'https://www.facebook.com/groups/655165751224277/', icon: Facebook, color: '#1877F2' },
@@ -15,7 +16,8 @@ const SocialPage = () => {
     <div>
         <div className="social-container">
       <div className="social-content">
-        <h1>Connect With Us</h1>
+        <h1>IEDC JECC</h1>
+        <h3>Connect With Us</h3>
         <p>Stay updated with our latest news, events, and initiatives by following us on social media.</p>
         <div className="social-grid">
           {socialLinks.map((link) => (
