@@ -1,7 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 import './socialpage.css';
-import { div } from 'three/webgpu';
 
 const SocialPage = () => {
   const socialLinks = [
